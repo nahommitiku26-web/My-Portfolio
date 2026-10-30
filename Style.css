@@ -1,0 +1,172 @@
+/* GENERAL SETTINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #101010;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+}
+
+/* HEADER */
+
+header {
+    background-color: #181818;
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 2px solid #d4af37;
+}
+
+header h1 {
+    color: #d4af37;
+    font-size: 36px;
+}
+
+.subtitle {
+    color: #bbbbbb;
+    margin-bottom: 20px;
+}
+
+/* NAVIGATION */
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 8px 12px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+/* MAIN CONTENT */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    padding: 35px 0;
+}
+
+section h2 {
+    color: #d4af37;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 15px;
+    color: #cccccc;
+}
+
+/* BUTTON */
+
+.btn {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #101010;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+}
+
+/* SKILLS AND PROJECTS */
+
+.skills-container,
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 250px;
+}
+
+.card h3 {
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.card:hover {
+    border-color: #d4af37;
+}
+
+/* PROJECT STATUS */
+
+.status {
+    display: inline-block;
+    color: #d4af37;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* GOALS */
+
+section ol {
+    padding-left: 25px;
+    color: #cccccc;
+}
+
+section ol li {
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #181818;
+    text-align: center;
+    padding: 25px;
+    border-top: 2px solid #d4af37;
+}
+
+footer p {
+    color: #aaaaaa;
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+}

@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="My portfolio and journey as an aspiring Full-Stack Developer.">
+          content="My personal portfolio and journey as a Full-Stack Developer.">
 
     <title>My Portfolio | Developer Journey</title>
 
-    <!-- Connect CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header id="top">
-        <h1>My Portfolio</h1>
+        <h1 class="logo">My Portfolio<span>.</span></h1>
+
         <p class="subtitle">Aspiring Full-Stack Developer</p>
 
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -34,85 +34,97 @@
     <main>
 
         <section id="about">
-            <h2>About Me</h2>
+            <p class="intro-label">WELCOME TO MY PORTFOLIO</p>
 
-            <p>
-                Hello! Welcome to my personal portfolio.
-                I am an aspiring Full-Stack Developer learning
-                how to build websites and web applications.
+            <h2>
+                Hello, I'm an Aspiring
+                <span>Developer.</span>
+            </h2>
+
+            <p class="description">
+                I am learning to build modern websites
+                and web applications. My journey is about
+                learning new skills, solving problems,
+                and creating useful projects.
             </p>
 
-            <p>
-                This website documents my coding journey,
-                showcases my projects, and tracks my progress.
-            </p>
-
-            <p>
-                I believe consistency, patience, and practice
-                are important parts of becoming a better developer.
-            </p>
-
-            <a href="#projects" class="btn">Explore My Projects</a>
+            <a href="#projects" class="btn">
+                Explore My Projects
+            </a>
         </section>
 
         <section id="skills">
             <h2>My Skills</h2>
 
+            <p class="section-description">
+                Technologies I am learning and improving.
+            </p>
+
             <div class="skills-container">
+
                 <article class="card">
                     <h3>HTML</h3>
-                    <p>Learning web page structure.</p>
+                    <p>Building website structures.</p>
                 </article>
 
                 <article class="card">
                     <h3>CSS</h3>
-                    <p>Learning website design.</p>
+                    <p>Designing and styling websites.</p>
                 </article>
 
                 <article class="card">
                     <h3>JavaScript</h3>
-                    <p>Coming soon.</p>
+                    <p>Learning web interactivity.</p>
                 </article>
 
                 <article class="card">
                     <h3>Git & GitHub</h3>
-                    <p>Learning version control.</p>
+                    <p>Managing and sharing code.</p>
                 </article>
+
             </div>
         </section>
 
         <section id="projects">
             <h2>My Projects</h2>
 
+            <p class="section-description">
+                Some projects from my development journey.
+            </p>
+
             <div class="projects-container">
 
                 <article class="card">
                     <h3>Personal Portfolio</h3>
                     <p>
-                        My first website to showcase my skills
-                        and development journey.
+                        A website showcasing my skills,
+                        projects, and coding progress.
                     </p>
-                    <p><strong>Technology:</strong> HTML, CSS</p>
+                    <p class="technology">HTML, CSS</p>
                     <span class="status">In Progress</span>
                 </article>
 
                 <article class="card">
                     <h3>Simple Calculator</h3>
                     <p>
-                        A project to practice mathematical
-                        operations and programming.
+                        A calculator project for practicing
+                        programming and calculations.
                     </p>
-                    <p><strong>Technology:</strong> HTML, CSS, JavaScript</p>
+                    <p class="technology">
+                        HTML, CSS, JavaScript
+                    </p>
                     <span class="status">Planned</span>
                 </article>
 
                 <article class="card">
                     <h3>To-Do List</h3>
                     <p>
-                        A task management application
-                        for practicing JavaScript.
+                        A simple task management application
+                        for organizing daily activities.
                     </p>
-                    <p><strong>Technology:</strong> HTML, CSS, JavaScript</p>
+                    <p class="technology">
+                        HTML, CSS, JavaScript
+                    </p>
                     <span class="status">Planned</span>
                 </article>
 
@@ -132,16 +144,18 @@
         </section>
 
         <section id="contact">
-            <h2>Contact Me</h2>
+            <h2>Let's Connect</h2>
 
-            <p>
-                Let's connect and grow together!
+            <p class="description">
+                I am always learning, building, and improving.
+                Follow my journey and explore my work.
             </p>
 
-            <a class="btn"
-               href="https://github.com/YOUR-USERNAME"
-               target="_blank"
-               rel="noopener noreferrer">
+            <a
+                href="https://github.com/YOUR-USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn">
                 Visit My GitHub
             </a>
         </section>
@@ -149,11 +163,11 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 My Portfolio. Built by me.</p>
+        <p>© 2026 My Portfolio. Built by me.</p>
         <p>Learning. Building. Improving.</p>
-        <p>Day 6 of my 40-day coding challenge.</p>
+        <p>Day 7 of my 40-day coding challenge.</p>
 
-        <a href="#top">Back to Top</a>
+        <a href="#top">Back to Top ↑</a>
     </footer>
 
 </body>

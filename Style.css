@@ -634,3 +634,76 @@ footer {
     }
 
 }
+/* RESUME SECTION */
+.resume-container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    background-color: #171717;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.resume-container:hover {
+    border-color: #d4af37;
+    transform: translateY(-5px);
+}
+
+/* RESUME ICON */
+.resume-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    background-color: #d4af37;
+    color: #111111;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* RESUME TEXT */
+.resume-container h3 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.resume-container p {
+    color: #aaaaaa;
+    margin-bottom: 25px;
+}
+
+/* DOWNLOAD BUTTON */
+.resume-container .btn {
+    display: inline-block;
+    padding: 13px 28px;
+    background-color: #d4af37;
+    color: #111111;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.resume-container .btn:hover {
+    background-color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 600px) {
+
+    .resume-container {
+        padding: 30px 20px;
+    }
+
+    .resume-container h3 {
+        font-size: 19px;
+    }
+
+}
+
